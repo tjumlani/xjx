@@ -15,6 +15,8 @@
 <body>
     <form name='form' id='form'>
         <input type='hidden' name='hidden_field' id='hidden_field' value="I am from a hidden fields">
+
+        <div><input type='button' value='Say Something' onClick="xjx.query('saySomething')"></div>
         
         <div >
             <div>Type Something: <input id='typed' name='typed' value='Hi babe'></div>
